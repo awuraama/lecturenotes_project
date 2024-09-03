@@ -102,7 +102,7 @@
 
             <div class="activity">
                 <!-- <div class="title"> -->
-                <form action="" method="post" enctype="multipart/form-data">
+                <form action="processupload.php" method="post" enctype="multipart/form-data">
                     <div class="form-group">
                         <label>Course Title</label>
                         <input id="coursename" name="coursename" type="text" class="form-control" style="width:100%;"
@@ -132,7 +132,7 @@
                         <input type="file" name="file" class="form-control" required>
                     </div>
                     <div style="padding-top:15px;">
-                        <button type="submit" id="save" class="btn btn-success">Save</button>
+                        <button type="submit" id="save" name="submit" class="btn btn-success">Save</button>
                         <button type="button" id="close" class="btn btn-danger">Close</button>
                     </div>
 
